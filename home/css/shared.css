@@ -1,0 +1,129 @@
+/*----------Default----------*/
+body{
+	margin: 0px;
+	background-color: #f9f9f9;
+}
+
+a{
+	text-decoration: none;
+}
+/*--------------------------*/
+
+
+
+
+/*----------Header----------*/
+.headerWrapper{
+	position: relative;
+	margin: 0px auto;
+	margin-top: 10px;
+	width: 960px;
+	height: 150px;
+	box-shadow: 0px -2px 5px #888888;
+}
+
+.headerBackground{
+	position: absolute;
+	width: 960px;
+	height: 150px;
+	background-image: url("../images/PivotalPlayHeader.png?v=1");
+	background-size: 960px 150px;
+	background-repeat: no-repeat;
+}
+
+.navWrapper{
+	position: relative;
+	margin: 0px auto;
+	width: 960px;
+	height: 60px;
+background: #7b8289; /* Old browsers */
+background: -moz-linear-gradient(top,  #7b8289 0%, #3d3d3d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7b8289), color-stop(100%,#3d3d3d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7b8289 0%,#3d3d3d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7b8289 0%,#3d3d3d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7b8289 0%,#3d3d3d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7b8289 0%,#3d3d3d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b8289', endColorstr='#3d3d3d',GradientType=0 ); /* IE6-9 */
+
+}
+
+.navItem{
+	position: relative;
+	margin: 0px auto;
+	width: 238px;
+	height: 60px;
+	float: left;
+	text-align: center;
+	color: #ededed;
+	line-height: 60px;
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+	border-right: 1px solid #6B7075;
+background: #7b8289; /* Old browsers */
+background: -moz-linear-gradient(top,  #7b8289 0%, #3d3d3d 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7b8289), color-stop(100%,#3d3d3d)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #7b8289 0%,#3d3d3d 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #7b8289 0%,#3d3d3d 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #7b8289 0%,#3d3d3d 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #7b8289 0%,#3d3d3d 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7b8289', endColorstr='#3d3d3d',GradientType=0 ); /* IE6-9 */
+}
+
+.navItem:hover{
+	color:white;
+background: #6b6b6b; /* Old browsers */
+background: -moz-linear-gradient(top,  #6b6b6b 0%, #7b8289 76%, #959ca5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6b6b6b), color-stop(76%,#7b8289), color-stop(100%,#959ca5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #6b6b6b 0%,#7b8289 76%,#959ca5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #6b6b6b 0%,#7b8289 76%,#959ca5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #6b6b6b 0%,#7b8289 76%,#959ca5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #6b6b6b 0%,#7b8289 76%,#959ca5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', endColorstr='#959ca5',GradientType=0 ); /* IE6-9 */
+}
+
+.navItem.active{
+	color:white;
+background: #6b6b6b; /* Old browsers */
+background: -moz-linear-gradient(top,  #6b6b6b 0%, #7b8289 76%, #959ca5 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6b6b6b), color-stop(76%,#7b8289), color-stop(100%,#959ca5)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #6b6b6b 0%,#7b8289 76%,#959ca5 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #6b6b6b 0%,#7b8289 76%,#959ca5 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #6b6b6b 0%,#7b8289 76%,#959ca5 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #6b6b6b 0%,#7b8289 76%,#959ca5 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', endColorstr='#959ca5',GradientType=0 ); /* IE6-9 */
+}
+
+/*--------------------------*/
+
+
+/*----------Footer----------*/
+.footer{
+	position: relative;
+	width: 100%;
+	height:150px;
+	background-color: black;
+	bottom:0;
+	/*border-top: 1px dashed white;*/
+	box-shadow: 0px -2px 4px 1px #000000;
+}
+
+.contact{
+	position: absolute;
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Trebuchet MS';
+	bottom:15;
+}
+
+.copyright{
+	position: absolute;
+	width: 100%;
+	color: white;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Trebuchet MS';
+	bottom:15;
+}
+/*--------------------------*/
