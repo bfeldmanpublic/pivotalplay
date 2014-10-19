@@ -1,10 +1,11 @@
 $(document).ready(function(){
 
 	var sliderImages = [
+		"media/Players/CampPic_mini.JPG",
 		"media/Players/action_min.JPG",
 		"media/Players/team_min.JPG",
 		"media/Players/team_2_min.JPG",
-		"media/Players/teamwork_min.JPG"
+		"media/Players/teamwork_min.JPG",
 	];
 
 	var currentSlide = (sliderImages.length-1);
