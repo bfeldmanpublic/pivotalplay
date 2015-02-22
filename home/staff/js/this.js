@@ -12,11 +12,11 @@ $(document).ready(function(){
 		$(this).children('.staffDataWrapper').animate({height:'50px'},"fast");
 	}
 
-	$(".staffMemberWrapper").click(function(){
+	$(".staffMemberWrapper").click(function(event){
 
 		if(bioWindowVisible===false){
 			event.stopPropagation();
-			$(this).children(".bioWindow").show();
+			$(this).children(".bioWindow").css("display","block");
 			$(".pageDimmer").show();
 			bioWindowVisible = true;
 		}
@@ -34,8 +34,8 @@ $(document).ready(function(){
 
 	function hideBioWindow(){
 		if(bioWindowVisible===true){
-			$(".bioWindow").hide();
-			$(".pageDimmer").hide();
+			$(".bioWindow").css("display","none");
+			$(".pageDimmer").css("display","none");
 			bioWindowVisible = false;
 		}
 	}

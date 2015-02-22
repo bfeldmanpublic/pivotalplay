@@ -1,24 +1,17 @@
 $(document).ready(function(){
 	var detailsShowing = false;
 
-	$(".seeMore").click(function(){
+	$(".seeMore").click(function(event){
 		event.stopPropagation();
-		$(this).siblings(".detailsWindow").show();
-		$(".pageDimmer").show();
+		$(this).siblings(".detailsWindow").css("display","block");
+		$(".pageDimmer").css("display","block");
 		detailsShowing = true;
-		showDetails();
 	});
-
-	// function showDetails(){
-	// 	$(".pageDimmer").show();
-	// 	$(".detailsWindow").show();
-	// 	detailsShowing = true;
-	// }
 
 	function hideDetails(){
 		if(detailsShowing===true){
-			$(".pageDimmer").hide();
-			$(".detailsWindow").hide();
+			$(".pageDimmer").css("display","none");
+			$(".detailsWindow").css("display","none");
 			detailsShowing = false;
 		}
 	}
@@ -32,5 +25,7 @@ $(document).ready(function(){
   			hideDetails();
   		}   
 	});
+
+	return;
 
 });
