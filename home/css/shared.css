@@ -96,6 +96,35 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b6b6b', end
 /*--------------------------*/
 
 
+
+
+/*----------Banner----------*/
+.break#a{
+	position: relative;
+	width: 100%;
+	height: auto;
+	min-height: 50px;
+	background-color: #f9f9f9;
+	box-shadow: 0px 5px 5px #888888;
+	z-index: 1;
+}
+
+.bannerAdWrapper{
+	width: 100%;
+}
+
+.bannerAdContent{
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	padding: 10px;
+	display: block;
+}
+/*--------------------------*/
+
+
+
+
 /*----------Footer----------*/
 .footer{
 	position: relative;
